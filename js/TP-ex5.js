@@ -4,3 +4,7 @@ Nota: Tener en cuenta la siguiente función: parseInt
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt
 */
+
+let unNumero = parseInt(prompt("Ingrese un número"));
+let otroNumero = parseInt(prompt("Ingrese otro número"));
+console.log(unNumero + otroNumero);

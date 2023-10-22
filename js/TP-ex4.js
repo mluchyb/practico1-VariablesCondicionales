@@ -6,6 +6,4 @@ input: Coder         Output: Hola Coder
 
 let nombreUsuario = prompt('Ingrese su nombre');
 
-let color = prompt("Ingrese su color favorito");
-
 console.log('Hola '+ nombreUsuario);
