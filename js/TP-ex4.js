@@ -6,4 +6,4 @@ input: Coder         Output: Hola Coder
 
 let nombreUsuario = prompt('Ingrese su nombre');
 
-console.log('Hola '+ nombreUsuario);
+document.write('Hola '+ nombreUsuario);

@@ -5,3 +5,15 @@ Ejemplo:
 
 input: Hola mundo        Output: oauo
 */
+
+let frase = prompt("Ingrese una frase");
+let vocal = "";
+
+for (let i = 0; i < frase.length; i++) {
+    let letra = frase.substring(i, i + 1);
+    if ("aeiou".includes(letra)) {
+        vocal += letra;
+    }
+}
+
+document.write(vocal);

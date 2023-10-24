@@ -7,4 +7,4 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales
 
 let unNumero = parseInt(prompt("Ingrese un número"));
 let otroNumero = parseInt(prompt("Ingrese otro número"));
-console.log(unNumero + otroNumero);
+document.write(unNumero + otroNumero);

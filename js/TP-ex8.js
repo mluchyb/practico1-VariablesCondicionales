@@ -8,7 +8,7 @@ input: 15              Output: El 15 no es divisible por 2.
 let numero = parseInt(prompt("Ingrese un número"));
 
 if (numero % 2 === 0) {
-    console.log(" El " + numero + " es divisible por 2");
+    document.write(" El " + numero + " es divisible por 2");
 } else {
-    console.log(" El " + numero + " no es divisible por 2");
+    document.write(" El " + numero + " no es divisible por 2");
 }
